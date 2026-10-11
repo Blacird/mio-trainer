@@ -1,0 +1,24 @@
+# ---- Release binary: distributed via GitHub Releases, not committed to repo ----
+*.exe
+*.res.o
+
+# ---- Logs / runtime output ----
+*.log
+
+# ---- Python caches ----
+__pycache__/
+*.pyc
+
+# ---- Dev / reverse-engineering scratch (not part of the release) ----
+*.py
+*.asm
+snaps/
+backup/
+capture_jump.bat
+capture_log.txt
+teleports.txt
+mio_strings_ascii.txt
+MIO_Trainer_TP_backup.c
+
+# ---- Editor ----
+.vscode/
